@@ -7,12 +7,13 @@ body{
   flex-wrap: wrap;
 }
 
-square {
+.square {
   width: 20px;
   height: 20px;
   background-color: rgba(0, 0, 0, 0); // Set the initial color
   transition: background-color 1s;
 }
+
 .square:hover {
-  background-color: rgb(29, 29, 29)/* generate a random color here */;
+  background-color: rgb(29, 29, 29); /* generate a random color here */
 }
