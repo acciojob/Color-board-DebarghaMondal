@@ -7,9 +7,10 @@ body{
   flex-wrap: wrap;
 }
 
-.square {
+square {
   width: 20px;
   height: 20px;
+  background-color: rgba(0, 0, 0, 0); // Set the initial color
   transition: background-color 1s;
 }
 .square:hover {
