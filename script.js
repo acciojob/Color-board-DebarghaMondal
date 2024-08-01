@@ -1,4 +1,4 @@
-let container = document.getElementById('container');
+let container = document.querySelector('.container');
 
 for (let i = 0; i < 800; i++) {
   let square = document.createElement('div');
