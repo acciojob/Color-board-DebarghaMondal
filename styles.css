@@ -13,5 +13,5 @@ body{
   transition: background-color 1s;
 }
 .square:hover {
-  background-color: /* generate a random color here */;
+  background-color: rgb(29, 29, 29)/* generate a random color here */;
 }
