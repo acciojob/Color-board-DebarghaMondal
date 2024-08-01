@@ -21,7 +21,7 @@ squares.forEach((square) => {
   // Add a 'mouseout' event listener to change the color back to initial after 1 second
   square.addEventListener('mouseout', () => {
     setTimeout(() => {
-      square.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+      square.style.backgroundColor = 'rgb(29, 29, 29)';
     }, 1000);
   });
 });
